@@ -25,8 +25,8 @@ class _HomePageState extends State<HomePage> {
             children: [
               menuHeader(),
               
-              Padding(
-                padding: const EdgeInsets.fromLTRB(20, 1, 20, 350),
+              const Padding(
+                padding: EdgeInsets.fromLTRB(20, 1, 20, 350),
                 child: Text(
                   'ยินดีต้อนรับเข้าสู่ \n แอปพลิเคชันคำนวณ BMI',
                   style: TextStyle(
